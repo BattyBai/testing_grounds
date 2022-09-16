@@ -150,3 +150,6 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
+
+# Adding the blow from YT Tutorial
+AUTH_USER_MODEL = 'menstrual_api.User'
